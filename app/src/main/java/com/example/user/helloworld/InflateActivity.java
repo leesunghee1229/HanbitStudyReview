@@ -24,6 +24,7 @@ public class InflateActivity extends AppCompatActivity {
         mLayFrame = (FrameLayout) findViewById(R.id.layFrame);
     }
 
+
     // btnAdd 클릭 이벤트
     public void btnAddClick(View view) {
 

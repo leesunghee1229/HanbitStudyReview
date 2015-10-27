@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="그림바꾸기 화면가기"
+        android:id="@+id/btnScrollView"
+        android:onClick="btnClickScrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="스크롤뷰 리스트 화면가기"
+        android:id="@+id/btnScrollList"
+        android:onClick="btnClickScrollList"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="인플레이트 화면가기"
+        android:id="@+id/btnInflate"
+        android:onClick="btnClickInflate"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="데이터결과 화면가기"
+        android:id="@+id/btnDataResult"
+        android:onClick="btnClickDataResult"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</LinearLayout>
